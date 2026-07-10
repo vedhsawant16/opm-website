@@ -1,0 +1,80 @@
+body{
+    background:url(website\ background.jpg);
+    background-repeat:no-repeat ;
+    background-attachment: fixed;
+    background-position: center;
+    background-size:cover ;
+}
+h1{
+    color: gold;
+    font-family: "press start 2P";
+    background:linear-gradient(red,black) ;
+}
+p{
+   color: white;
+   font-family:"consolas";
+  background:linear-gradient(red,black);
+   
+}
+
+p:hover{
+
+     border-style: outset;
+   border-color:yellow; 
+   border-radius: 10px;
+   border-width: 10px;
+   
+}
+
+
+#l1{
+    
+    font-family:"yuyu";
+    font-size: 30px;
+    ;
+}
+
+a:link{
+    color: yellow;
+    text-shadow: 0px 0px 5px black;
+}
+
+a:visited{
+    color: yellow;
+    text-shadow: 0px 0px 5px black;
+}
+
+a:hover{
+    color: tomato;
+    text-shadow: 0px 0px 5px black;
+}
+
+#yticon{
+color: red;
+font-size: 30px;
+
+}
+
+#box1{
+    background-color: tomato;
+    height: 250px;
+    width: 250px;
+    font-size: 200px;
+    transform: translate(1100px,-300px);
+    
+
+}
+
+#box1:hover{
+    animation: 4s linear 0s infinite mycolor;
+}
+
+@keyframes mycolor{
+   
+    10%{background-color: yellow;}
+  30%{background-color: red}
+  50%{background-color: pink;}
+  70%{background-color: purple;}
+  90%{background-color: powderblue;}
+  100%{background-color: darkcyan;}
+}
